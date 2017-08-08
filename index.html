@@ -15,22 +15,78 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css" rel="stylesheet" />
 </head>
 <body>
-  <h1>Prosta strona oparta na platformie Boostrap</h1>
-  <p>
-    Cupcake <a href="#">ipsum dolor sit amet</a>. Chocolate gingerbread soufflé jelly-o. Lemon drops jelly-o sugar plum chocolate bar muffin. Cookie oat cake candy canes pie oat cake. Brownie brownie croissant pudding muffin apple pie halvah macaroon. Chocolate bonbon jelly bear claw. Bonbon brownie candy canes gummies halvah. Icing sweet roll cotton candy macaroon pudding sweet fruitcake marshmallow marzipan.</p>
-  <p>
-    Bear claw cheesecake croissant gummi bears <a href="#">jelly beans </a>chupa chups pudding sweet. Cupcake tart croissant cotton candy cheesecake topping. Cupcake apple pie lollipop sesame snaps topping cotton candy jujubes. Dessert gummi bears bear claw toffee lemon drops tiramisu marzipan. Marshmallow tiramisu jelly cake cheesecake bonbon ice cream cake.</p>
-  <ul>
-    <li><a href="#">Cupcake ipsum dolor sit amet.</a></li>
-    <li>Chocolate gingerbread soufflé jelly-o. </li>
-    <li>rownie brownie croissant pudding muffin apple pie halvah macaroon.</li>
-  </ul>
-  <dl>
-    <dt>Bear claw <a href="#">jelly beans </a>chupa chups pudding sweet.</dt>
-    <dd>Dessert gummi bears bear claw toffee.</dd>
-    <dt>Marshmallow tiramisu jelly cake cheesecake bonbon ice cream cake.</dt>
-    <dd>upcake apple pie lollipop sesame snaps.</dd>
-  </dl>
+  <section class="container">
+    <section class="row">
+      <div class="col-xs-12 col-sm-4">
+        <section class="row">
+          <div class="col-xs-4">Pierwsza, mała kolumna.</div>
+          <div class="col-xs-4">Pierwsza, mała kolumna.</div>
+          <div class="col-xs-4">Pierwsza, mała kolumna.</div>
+        </section>
+      </div>
+      <div class="col-xs-12 col-sm-4">Druga, główna kolumna.</div>
+      <div class="col-xs-12 col-sm-4">Trzecia, główna kolumna.</div>
+    </section>
+    <section class="row etykieta">
+      <div class="col-xs-12"><h1>
+        <span class="label label-default">Etykieta</span>
+        <span class="label label-danger">Etykieta</span>
+        <span class="label label-info">Etykieta</span>
+        </h1>
+      </div>
+    </section>
+    <section class="row plakietka">
+      <div class="col-xs-12">
+        <a href="inbox">Poczta <span class="badge">4</span></a>
+      </div>
+    </section>
+    <section class="row wstawka">
+      <div class="col-xs-12">
+        <p class="well">To jest wstawka</p>
+        <p class="well well-lg">To jest duża wstawka</p>
+        <p class="well well-sm">To jest mała wstawka</p>
+        <blockquote>To jest cytat.</blockquote>
+        <div class="well well-sm"><blockquote>To jest cytat we wstawce.</blockquote></div>
+      </div>
+    </section>
+    <section class="row panele">
+      <div class="col-xs-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            To jest nagłowek panelu bez tytułu.
+          </div>
+          <div class="panel-body">
+            To jest treść panelu.
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">To jest tytuł panelu.</h3>
+          </div>
+          <div class="panel-body">
+            To jest treść panelu.
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            To jest treść panelu.
+          </div>
+          <div class="panel-footer">
+            To jest treść stopki panelu.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row transparent">
+      <div class="col-xs-12">
+        <div class="jumbotron">
+          <h1>To jest transparent Jumbotron.</h1>
+          <p>To jest treść transparentu.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Więcej informacji...</a></p>
+        </div>
+      </div>
+    </section>
+  </section>
   <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
