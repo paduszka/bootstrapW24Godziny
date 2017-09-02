@@ -30,3 +30,7 @@ dd {
 blockquote {
   margin-bottom: 0px;
 }
+
+table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #d6adfa
+}
